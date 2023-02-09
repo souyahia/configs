@@ -8,6 +8,7 @@ Here is the list of ESLint configurations exported in this project :
 
 | Package Name               | Link                                                                              | Description                                       |
 |----------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------|
+| `eslint-config-base`       | [link](https://github.com/souyahia/tree/master/packages/eslint-config-base)       | Base ESLint configuration for pure JS projects    |
 | `eslint-config-typescript` | [link](https://github.com/souyahia/tree/master/packages/eslint-config-typescript) | Base ESLint configuration for TypeScript projects |
 
 # Prettier configs
