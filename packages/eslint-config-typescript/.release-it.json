@@ -1,6 +1,7 @@
 {
   "git": {
     "commitMessage": "@souyahia/eslint-config-typescript Release ${version}",
+    "tagAnnotation": "@souyahia/eslint-config-typescript Release ${version}",
     "tagName": "eslint-config-typescript-${version}"
   },
   "github": {

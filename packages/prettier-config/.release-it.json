@@ -1,6 +1,7 @@
 {
   "git": {
     "commitMessage": "@souyahia/prettier-config Release ${version}",
+    "tagAnnotation": "@souyahia/prettier-config Release ${version}",
     "tagName": "prettier-config-${version}"
   },
   "github": {
