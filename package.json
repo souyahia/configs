@@ -1,7 +1,7 @@
 {
   "name": "@souyahia/configs",
   "packageManager": "yarn@3.2.4",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Useful Node.js configurations that I use throughout my projects",
   "author": "souyahia",
   "private": true,
@@ -18,9 +18,9 @@
     "lint": "yarn run prettier && yarn run eslint",
     "lint:fix": "yarn run prettier:fix && yarn run eslint:fix"
   },
-  "dependencies": {
-    "@souyahia/eslint-config": "workspace:*",
-    "@souyahia/prettier-config": "workspace:*",
+  "devDependencies": {
+    "@souyahia/eslint-config-base": "*",
+    "@souyahia/prettier-config": "*",
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",

@@ -1,13 +1,27 @@
 {
   "name": "@souyahia/prettier-config",
   "packageManager": "yarn@3.2.4",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The base Prettier config that I use in my Node.js projects",
   "author": "souyahia",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
   "peerDependencies": {
     "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "release-it": "^15.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",

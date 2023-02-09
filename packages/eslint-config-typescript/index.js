@@ -5,7 +5,7 @@ const ERROR = 2;
 module.exports = {
   root: true,
   extends: [
-    '@souyahia/eslint-config',
+    '@souyahia/eslint-config-base',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',

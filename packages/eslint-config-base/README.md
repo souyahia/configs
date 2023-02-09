@@ -1,13 +1,13 @@
-# @souyahia/eslint-config-typescript
+# @souyahia/eslint-config-base
 
-This package provides the base ESlint configuration that I use in my TypeScript projects.
+This package provides the base ESlint configuration that I use in my pure JS projects.
 
 # Installation
 
 To install this eslint configuration, simply run the following command :
 
 ```
-yarn add -D @souyahia/eslint-config-typescript
+yarn add -D @souyahia/eslint-config-base
 ```
 
 Until ESlint flat config is implemented (_see the note below_), you will also need to install the required peer
@@ -19,15 +19,9 @@ To extend this config, simply place the following snipplet in your `.eslintrc.js
 
 ```javascript
 module.exports = {
-  extends: ['@souyahia/eslint-config-typescript'],
-  parserOptions: {
-    project: ['./tsconfig.json'],
-  },
+  extends: ['@souyahia/eslint-config-base'],
 };
 ```
-
-Note that you need to manually specify the path to your tsconfig.json or the parser won't be able to locate your
-Typescript config.
 
 # A note reguarding ESlint Flat Configs
 
