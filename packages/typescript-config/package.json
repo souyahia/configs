@@ -1,12 +1,13 @@
 {
   "name": "@souyahia/typescript-config",
   "packageManager": "yarn@3.2.4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The TSConfigs that I use in my TypeScript projects",
   "author": "souyahia",
   "license": "MIT",
   "files": [
     "tsconfig.json",
+    "tsconfig.angular.json",
     "LICENSE",
     "README.md"
   ],

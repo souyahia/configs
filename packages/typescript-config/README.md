@@ -40,6 +40,64 @@ I also recommend using a second tsconfig file used for building your sources usi
 
 Here is a list of available Typescript config files exported by this project :
 
-| Name            | Usage                                         |
-| --------------- | --------------------------------------------- |
-| `tsconfig.json` | Base configuration for any typescript project |
+| Name                    | Usage                                         |
+|-------------------------|-----------------------------------------------|
+| `tsconfig.json`         | Base configuration for any typescript project |
+| `tsconfig.angular.json` | Base configuration for any Angular project    |
+
+# Examples
+## Angular
+- `tsconfig.json` :
+```json
+{
+  "extends": "@souyahia/typescript-config/tsconfig.angular.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "paths": {
+      "app/*": [
+        "src/app/*"
+      ]
+    }
+  }
+}
+```
+
+- `tsconfig.app.json` :
+```json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": []
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ]
+}
+```
+
+- `tsconfig.spec.json` :
+```json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine"
+    ]
+  },
+  "files": [
+    "src/test.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
+```
