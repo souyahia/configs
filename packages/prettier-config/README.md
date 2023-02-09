@@ -1,20 +1,13 @@
 # @monkvision/prettier-config
 
-This package provides the base Prettier configuration for @monkvision Node.js packages.
+This package provides the base Prettier that I use throughout my Node.js projects
 
 # Install
 
 To install the project simply run the following command :
 
 ```shell
-yarn add prettier @monkvision/prettier-config
-```
-
-If you are installing this package as a dev dependency in the @monkvision yarn workspace, you can add the following line
-in the dev dependencies of your package.json :
-
-```
-"@monkvision/prettier-config": "1.0.0"
+yarn add prettier @souyahia/prettier-config
 ```
 
 # How to use
@@ -23,6 +16,6 @@ To use the Prettier config exported by this package, simply add the following li
 
 ```json
 {
-  "prettier": "@monkvision/prettier-config"
+  "prettier": "@souyahia/prettier-config"
 }
 ```
