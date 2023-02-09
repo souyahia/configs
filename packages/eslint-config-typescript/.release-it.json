@@ -8,8 +8,5 @@
     "release": true,
     "releaseName": "@souyahia/eslint-config-typescript Release ${version}",
     "web": true
-  },
-  "npm": {
-    "skipChecks": true
   }
 }

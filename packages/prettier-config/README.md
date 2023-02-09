@@ -22,5 +22,7 @@ in the dev dependencies of your package.json :
 To use the Prettier config exported by this package, simply add the following line in your `package.json` :
 
 ```json
-"prettier": "@monkvision/prettier-config"
+{
+  "prettier": "@monkvision/prettier-config"
+}
 ```

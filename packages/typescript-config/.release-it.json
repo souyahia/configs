@@ -1,0 +1,12 @@
+{
+  "git": {
+    "commitMessage": "@souyahia/typescript-config Release ${version}",
+    "tagAnnotation": "@souyahia/typescript-config Release ${version}",
+    "tagName": "typescript-config-${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "@souyahia/typescript-config Release ${version}",
+    "web": true
+  }
+}

@@ -8,8 +8,5 @@
     "release": true,
     "releaseName": "@souyahia/prettier-config Release ${version}",
     "web": true
-  },
-  "npm": {
-    "skipChecks": true
   }
 }
