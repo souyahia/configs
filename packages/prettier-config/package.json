@@ -1,0 +1,27 @@
+{
+  "name": "@souyahia/prettier-config",
+  "packageManager": "yarn@3.2.4",
+  "version": "1.0.0",
+  "description": "The base Prettier config that I use in my Node.js projects",
+  "author": "souyahia",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souyahia/configs.git"
+  },
+  "keywords": [
+    "souyahia",
+    "style guide",
+    "lint",
+    "prettier",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/souyahia/configs/issues"
+  },
+  "homepage": "https://github.com/souyahia/configs"
+}

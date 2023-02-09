@@ -1,0 +1,43 @@
+{
+  "name": "@souyahia/configs",
+  "packageManager": "yarn@3.2.4",
+  "version": "1.0.0",
+  "description": "Useful Node.js configurations that I use throughout my projects",
+  "author": "souyahia",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "prettier": "@souyahia/prettier-config",
+  "scripts": {
+    "prettier": "prettier --check .eslintrc.js ./packages",
+    "prettier:fix": "prettier --write .eslintrc.js ./packages",
+    "eslint": "eslint --format=pretty .eslintrc.js ./packages",
+    "eslint:fix": "eslint --fix --format=pretty .eslintrc.js ./packages",
+    "lint": "yarn run prettier && yarn run eslint",
+    "lint:fix": "yarn run prettier:fix && yarn run eslint:fix"
+  },
+  "dependencies": {
+    "@souyahia/eslint-config": "workspace:*",
+    "@souyahia/prettier-config": "workspace:*",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souyahia/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/souyahia/configs/issues"
+  },
+  "homepage": "https://github.com/souyahia/configs"
+}

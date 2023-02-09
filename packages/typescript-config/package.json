@@ -1,0 +1,25 @@
+{
+  "name": "@souyahia/typescript-config",
+  "packageManager": "yarn@3.2.4",
+  "version": "1.0.0",
+  "description": "The TSConfigs that I use in my TypeScript projects",
+  "author": "souyahia",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souyahia/configs.git"
+  },
+  "keywords": [
+    "souyahia",
+    "config",
+    "typescript",
+    "tsconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/souyahia/configs/issues"
+  },
+  "homepage": "https://github.com/souyahia/configs"
+}
