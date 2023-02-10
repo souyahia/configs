@@ -14,9 +14,6 @@
   "scripts": {
     "release": "release-it"
   },
-  "peerDependencies": {
-    "typescript": "^4.8.4"
-  },
   "devDependencies": {
     "release-it": "^15.6.0"
   },
