@@ -43,7 +43,7 @@ Here is a list of available Typescript config files exported by this project :
 | Name                    | Usage                                         |
 |-------------------------|-----------------------------------------------|
 | `tsconfig.json`         | Base configuration for any typescript project |
-| `tsconfig.angular.json` | Base configuration for any Angular project    |
+| `tsconfig.angular.json` | Base configuration for any Angular 15 project |
 
 # Examples
 ## Angular
