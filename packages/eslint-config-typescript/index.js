@@ -23,6 +23,7 @@ module.exports = {
   rules: {
     'prettier/prettier': ERROR,
     '@typescript-eslint/lines-between-class-members': OFF,
+    'no-useless-constructor': OFF,
   },
   overrides: [
     {
