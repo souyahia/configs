@@ -1,7 +1,7 @@
 {
   "name": "@souyahia/prettier-config",
   "packageManager": "yarn@3.2.4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The base Prettier config that I use in my Node.js projects",
   "author": "souyahia",
   "main": "index.js",
