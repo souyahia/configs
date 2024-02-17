@@ -14,6 +14,9 @@
   "scripts": {
     "release": "release-it"
   },
+  "peerDependencies": {
+    "@types/jest": "*"
+  },
   "devDependencies": {
     "release-it": "^15.6.0"
   },
