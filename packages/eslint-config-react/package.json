@@ -1,7 +1,7 @@
 {
   "name": "@souyahia/eslint-config-react",
   "packageManager": "yarn@3.2.4",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The base ESLint config that I use in my React TypeScript projects",
   "author": "souyahia",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "release": "release-it"
   },
   "peerDependencies": {
-    "@souyahia/eslint-config-typescript": "^1.0.1",
+    "@souyahia/eslint-config-typescript": "^1.0.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",

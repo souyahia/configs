@@ -1,12 +1,12 @@
 {
   "git": {
-    "commitMessage": "@souyahia/eslint-config-base Release ${version}",
-    "tagAnnotation": "@souyahia/eslint-config-base Release ${version}",
-    "tagName": "eslint-config-base-${version}"
+    "commitMessage": "@souyahia/eslint-config-react Release ${version}",
+    "tagAnnotation": "@souyahia/eslint-config-react Release ${version}",
+    "tagName": "eslint-config-react-${version}"
   },
   "github": {
     "release": true,
-    "releaseName": "@souyahia/eslint-config-base Release ${version}",
+    "releaseName": "@souyahia/eslint-config-react Release ${version}",
     "web": true
   }
 }
