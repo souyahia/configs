@@ -41,13 +41,16 @@ I also recommend using a second tsconfig file used for building your sources usi
 Here is a list of available Typescript config files exported by this project :
 
 | Name                    | Usage                                         |
-|-------------------------|-----------------------------------------------|
+| ----------------------- | --------------------------------------------- |
 | `tsconfig.json`         | Base configuration for any typescript project |
 | `tsconfig.angular.json` | Base configuration for any Angular 15 project |
 
 # Examples
+
 ## Angular
+
 - `tsconfig.json` :
+
 ```json
 {
   "extends": "@souyahia/typescript-config/tsconfig.angular.json",
@@ -64,6 +67,7 @@ Here is a list of available Typescript config files exported by this project :
 ```
 
 - `tsconfig.app.json` :
+
 ```json
 {
   "extends": "./tsconfig.json",
@@ -82,6 +86,7 @@ Here is a list of available Typescript config files exported by this project :
 ```
 
 - `tsconfig.spec.json` :
+
 ```json
 {
   "extends": "./tsconfig.json",

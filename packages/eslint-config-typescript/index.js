@@ -11,7 +11,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:prettier/recommended',
   ],
-  plugins: ['@typescript-eslint', 'import', 'prettier'],
+  plugins: ['@typescript-eslint', 'jest', 'import', 'prettier'],
   parser: '@typescript-eslint/parser',
   settings: {
     'import/resolver': {
@@ -35,7 +35,7 @@ module.exports = {
       },
     },
     {
-      files: ['test/**/*.{ts,tsx}'],
+      files: ['*.test.{ts,tsx}'],
       rules: {
         'import/first': OFF,
       },

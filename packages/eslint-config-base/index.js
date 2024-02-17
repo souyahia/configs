@@ -28,7 +28,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['test/**/*.{js,jsx}'],
+      files: ['*.test.{js,jsx}'],
       rules: {
         'import/first': OFF,
       },
